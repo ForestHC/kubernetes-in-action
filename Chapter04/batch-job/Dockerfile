@@ -1,3 +1,2 @@
 FROM busybox
-ENTRYPOINT echo "$(date) Batch job starting"; sleep 120; echo "$(date) Finished succesfully"
-
+ENTRYPOINT echo "$(date) Batch job starting"; sleep 20; echo "$(date) Finished succesfully"
